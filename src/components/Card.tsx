@@ -6,14 +6,16 @@ export const Card = () => {
   return (
     <StyledCard>
       <img src={cardImg} alt="Image" />
-      <section>
+      <section> 
         <h3>Headline</h3>
         <p>
           Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie
           ornare in venen.
         </p>
         <div>
-          <ButtonLink as="a" href="#">See more</ButtonLink>
+          <ButtonLink as="a" href="#">
+            See more
+          </ButtonLink>
           <Button>Save</Button>
         </div>
       </section>
