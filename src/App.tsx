@@ -4,7 +4,11 @@ import { Card } from './components/Card'
 export const App = () => {
   return (
     <Wrapper>
-      <Card />
+      <Card
+        title="Headline"
+        desc="Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie
+          ornare in venen."
+      />
     </Wrapper>
   )
 }
